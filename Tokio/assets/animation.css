@@ -1,0 +1,32 @@
+@keyframes tambalear {
+    0% { transform: rotateZ(0deg); }
+    25% { transform: rotateZ(-3deg); }
+    50% {transform: rotateZ(0deg);}
+    75% { transform: rotateZ(3deg); }
+    100% { transform: rotateZ(0deg); }
+}
+
+#logo:hover {
+    animation: tambalear 1s linear infinite;
+}
+
+@keyframes neon {
+    0% {text-shadow: 0 0 10px #ff00d2;}
+    25%{text-shadow: 0 0 20px #ff00d2;}
+    50% {text-shadow: 0 0 30px #ff00d2}
+    75% {text-shadow: 0 0 40px #ff00d2;}
+    100% {text-shadow: 0 0 50px #ff00d2;}
+}
+
+@keyframes titulogradient {
+    0% {
+    color: #12001a;
+    }
+    50% {
+    color: #ff00d2;
+    }
+    100% {
+    color: #12001a;
+    }
+}
+
